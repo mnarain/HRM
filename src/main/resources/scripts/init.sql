@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS hrm;
+
+CREATE TABLE job_title
+(
+    id   INT                 NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) UNIQUE NOT NULL,
+    PRIMARY KEY (id)
+);
+
